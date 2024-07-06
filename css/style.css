@@ -1,0 +1,108 @@
+:root{
+    --mainTextColor:#212121;
+}
+:root{
+    --mainEmailColor:#757575;
+}
+:root{
+    --mainLinkColor:#2196F3;
+}
+:root{
+    --mainLogoColor:#000000;
+}
+:root{
+    --mainBackgroundColor:#2F303A;
+}
+:root{
+    --mainBackgroundColor2:#F5F4FA;
+}
+:root{
+    --mainBackgroundFooter:#FFFFFF;
+}
+:root{
+    --mainBackgroundFooterColor:#2F303A;
+}
+.list-link{
+    color: var(--mainTextColor);
+}
+.list-link2{
+    color: var(--mainLinkColor);
+}
+.list-link3{
+    color: var(--mainEmailColor);
+}
+.logo-text{
+    color: var(--mainLinkColor);
+}
+.logo-text2{
+    color: var(--mainLogoColor);
+}
+.section{
+    background-color: var(--mainBackgroundColor);
+}
+.button{
+    color: var(--mainLinkColor);
+}
+.section4{
+    color: var(--mainBackgroundColor2);
+}
+.list-item6{
+    color: var(--mainTextColor);
+}
+.features-title2{
+    color: var(--mainTextColor);
+}
+.features-title3{
+    color: var(--mainTextColor);
+}
+.features-title4{
+    color: var(--mainTextColor);
+}
+.section-title2{
+    color: var(--mainTextColor);
+}
+.our-team-title{
+    color: var(--mainTextColor);
+}
+.Igor{
+    color: var(--mainTextColor);
+}
+.Igor-text{
+    color: var(--mainEmailColor);
+}
+.Olga{
+    color: var(--mainTextColor);
+}
+.Olga-text{
+    color: var(--mainEmailColor);
+}
+.mukola{
+    color: var(--mainTextColor);
+}
+.mukola-text{
+    color: var(--mainEmailColor);
+}
+.mikhail{
+    color: var(--mainTextColor);
+}
+.mikhail-text{
+    color: var(--mainEmailColor);
+}
+.logo-text3{
+    color: var(--mainLinkColor);
+}
+.logo-text4{
+    color: var(--mainBackgroundFooter);
+}
+.text-footer{
+    color: var(--mainBackgroundFooter);
+}
+.list-link6{
+    color: var(--mainBackgroundFooter);
+}
+.list-link7{
+    color: var(--mainBackgroundFooter);
+}
+.infofooter {
+  background-color:#2F303A
+}
