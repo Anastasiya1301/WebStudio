@@ -1,41 +1,48 @@
 :root{
     --mainTextColor:#212121;
+     --mainEmailColor:#757575;
+     --mainLinkColor:#2196F3;
+     --mainLogoColor:#000000;
+      --mainBackgroundColor:#2F303A;
+      --mainBackgroundColor2:#F5F4FA;
+      --mainBackgroundFooter:#FFFFFF;
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
 }
-:root{
-    --mainEmailColor:#757575;
+.menu-link{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 14px;
+letter-spacing: 0.02em;
+color:var(--mainTextColor);
 }
-:root{
-    --mainLinkColor:#2196F3;
-}
-:root{
-    --mainLogoColor:#000000;
-}
-:root{
-    --mainBackgroundColor:#2F303A;
-}
-:root{
-    --mainBackgroundColor2:#F5F4FA;
-}
-:root{
-    --mainBackgroundFooter:#FFFFFF;
-}
-:root{
-    --mainBackgroundFooterColor:#2F303A;
-}
-.list-link{
-    color: var(--mainTextColor);
-}
-.list-link2{
+.menu-link:hover,
+.menu-link:focus{
     color: var(--mainLinkColor);
 }
-.list-link3{
+.contacts-link:hover,
+.contacts-link:focus{
     color: var(--mainEmailColor);
 }
 .logo-text{
-    color: var(--mainLinkColor);
+    font-family: var(--second-family);
+font-weight: 700;
+font-size: 26px;
+letter-spacing: 0.03em;
+color: var(--mainLinkColor);
 }
-.logo-text2{
+.logo-header{
     color: var(--mainLogoColor);
+}
+.contacts-link{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 14px;
+letter-spacing: 0.02em;
+color:var(--mainEmailColor);
+}
+.title{
+    color: var(--mainBackgroundFooter);
 }
 .section{
     background-color: var(--mainBackgroundColor);
@@ -88,12 +95,6 @@
 .mikhail-text{
     color: var(--mainEmailColor);
 }
-.logo-text3{
-    color: var(--mainLinkColor);
-}
-.logo-text4{
-    color: var(--mainBackgroundFooter);
-}
 .text-footer{
     color: var(--mainBackgroundFooter);
 }
@@ -105,4 +106,7 @@
 }
 .infofooter {
   background-color:#2F303A
+}
+.logo-footer{
+    color: var(--mainBackgroundFooter);
 }
