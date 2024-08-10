@@ -41,20 +41,65 @@ font-size: 14px;
 letter-spacing: 0.02em;
 color:var(--mainEmailColor);
 }
+
 .title{
-    color: var(--mainBackgroundFooter);
-}
-.section{
-    background-color: var(--mainBackgroundColor);
+    color: blueviolet;
+    font-family: var(--font-family);
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+text-align: center;
 }
 .button{
-    color: var(--mainLinkColor);
+    color: var(--mainBackgroundFooter);
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.06em;
+text-align: center;
 }
-.section4{
-    color: var(--mainBackgroundColor2);
+.features-title{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color:var(--mainTextColor);
 }
-.list-item6{
-    color: var(--mainTextColor);
+.features-text{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color:var(--mainEmailColor);
+}
+.heading{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 36px;
+letter-spacing: 0.03em;
+text-align: center;
+color:var(--mainTextColor)
+}
+.team-title{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+letter-spacing: 0.03em;
+text-align: center;
+color:var(--mainTextColor);
+}
+.team-text{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+letter-spacing: 0.03em;
+text-align: center;
+color:var(--mainEmailColor);
 }
 .features-title2{
     color: var(--mainTextColor);
@@ -68,45 +113,30 @@ color:var(--mainEmailColor);
 .section-title2{
     color: var(--mainTextColor);
 }
-.our-team-title{
-    color: var(--mainTextColor);
-}
-.Igor{
-    color: var(--mainTextColor);
-}
-.Igor-text{
-    color: var(--mainEmailColor);
-}
-.Olga{
-    color: var(--mainTextColor);
-}
-.Olga-text{
-    color: var(--mainEmailColor);
-}
-.mukola{
-    color: var(--mainTextColor);
-}
-.mukola-text{
-    color: var(--mainEmailColor);
-}
-.mikhail{
-    color: var(--mainTextColor);
-}
-.mikhail-text{
-    color: var(--mainEmailColor);
-}
 .text-footer{
     color: var(--mainBackgroundFooter);
 }
-.list-link6{
-    color: var(--mainBackgroundFooter);
-}
-.list-link7{
-    color: var(--mainBackgroundFooter);
-}
-.infofooter {
+.footer {
   background-color:#2F303A
 }
 .logo-footer{
     color: var(--mainBackgroundFooter);
 }
+.address-post{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color:var(--mainBackgroundFooter);
+}
+.address-email,
+.address-phone{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color:var(--mainEmailColor);
+}
+
