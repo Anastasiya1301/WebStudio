@@ -41,7 +41,7 @@ font-size: 14px;
 letter-spacing: 0.02em;
 color:var(--mainEmailColor);
 }
-
+/*WebStudio*/
 .title{
     color: blueviolet;
     font-family: var(--font-family);
@@ -101,21 +101,34 @@ letter-spacing: 0.03em;
 text-align: center;
 color:var(--mainEmailColor);
 }
-.features-title2{
-    color: var(--mainTextColor);
+
+/*Portfolio*/
+.buttons{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 162%;
+letter-spacing: 0.03em;
+text-align: center;
+color:var(--mainBackgroundFooter);
 }
-.features-title3{
-    color: var(--mainTextColor);
+.offers-title{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 18px;
+line-height: 200%;
+letter-spacing: 0.06em;
+color:var(--mainTextColor);
 }
-.features-title4{
-    color: var(--mainTextColor);
+.offers-text{
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 187%;
+letter-spacing: 0.03em;
+color:var(--mainEmailColor);
 }
-.section-title2{
-    color: var(--mainTextColor);
-}
-.text-footer{
-    color: var(--mainBackgroundFooter);
-}
+
 .footer {
   background-color:#2F303A
 }
