@@ -9,12 +9,47 @@
   --font-family: "Roboto", sans-serif;
   --second-family: "Raleway", sans-serif;
 }
+.header{
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.nav{
+    display: flex;
+}
+.nav-logotype{
+    width: 145px;
+  height: 31px;
+  left: 215px;
+  right: 1240px;
+  top: 24px;
+  bottom: 25px;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 3%;
+  text-align: left;
+  margin-right: 32px;
+}
+.menu-item0{
+    margin-right: 32px;
+}
 .menu-link{
     font-family: var(--font-family);
 font-weight: 500;
 font-size: 14px;
 letter-spacing: 0.02em;
 color:var(--mainTextColor);
+}
+.link1:not(:last-child){
+    display: flex;
+  margin-right: 50px;
+  margin-left: 344px;
 }
 .menu-link:hover,
 .menu-link:focus{
@@ -51,23 +86,65 @@ line-height: 1.36;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 text-align: center;
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 1.36;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
+   text-align: center;
+   font-style: normal;
+   width: 696px;
+   flex-shrink: 0;
+   margin: 0 auto;
+}
+.hero-section{
+    background-color: var(--mainBackgroundColor);
+    height: 600px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .button{
     color: var(--mainBackgroundFooter);
+    background-color: var(--mainLinkColor);
     font-family: var(--font-family);
 font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.06em;
 text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    text-align: center;
+    margin-left: 470px;
+    margin-top: 30px;
+    font-style: normal;
+    width: 216px;
+    height: 50px;
+    border-radius: 4px;
+    cursor: pointer;
 }
 .features-title{
+    color:var(--mainTextColor);
     font-family: var(--font-family);
 font-weight: 700;
 font-size: 14px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color:var(--mainTextColor);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;  
+    margin-left: 10px;
+}
+.features-list{
+    display: flex;
+  padding-top: 94px;
 }
 .features-text{
     font-family: var(--font-family);
@@ -76,6 +153,39 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color:var(--mainEmailColor);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color:var(--mainEmailColor);
+    padding:10px;
+}
+.texttitle1 {
+  /* Ідейні міркування, і навіть початок повсякденної роботи з формування позиції. */
+  text-align: left;
+  width: 270px;
+  height: 72px;
+}
+.texttitle2 {
+  /* Завдання організації, особливо рамки і місце навчання кадрів тягне у себе. */
+  width: 270px;
+  height: 48px;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+}
+.texttitle3 {
+  /* Так само консультація з широким активом значною мірою зумовлює. */
+  width: 270px;
+  height: 48px;
+  left: 815px;
+  text-align: left;
+}
+.texttitle4 {
+  /* Значимість цих проблем настільки очевидна, що реалізація планових завдань. */
+  width: 270px;
+  height: 72px;
+  text-align: left;
 }
 .heading{
     font-family: var(--font-family);
@@ -84,6 +194,34 @@ font-size: 36px;
 letter-spacing: 0.03em;
 text-align: center;
 color:var(--mainTextColor)
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color:var(--mainTextColor)
+}
+.services{
+    display: flex;
+    margin-top: 92px;
+    padding-bottom: 94px;
+}
+.services-img{
+     margin-right: 30px;
+}
+.section5{
+    background-color:var(--inBackgroundColor2--);
+    /*height: 648px;*/
+}
+.team:not(:last-child){
+    margin-bottom: 30px;
+}
+.team-item:not(:last-child){
+    margin-right: 30px;
+    display: inline-block;
+    width: 270px; /* Ширина карточки */
+    text-align: center;
+    border-radius: 0px 0px 4px 4px;
+    background: var(--mainBackgroundFooter);
 }
 .team-title{
     font-family: var(--font-family);
@@ -92,6 +230,8 @@ font-size: 16px;
 letter-spacing: 0.03em;
 text-align: center;
 color:var(--mainTextColor);
+margin-top: 30px;
+font-weight: 500;
 }
 .team-text{
     font-family: var(--font-family);
@@ -101,6 +241,7 @@ letter-spacing: 0.03em;
 text-align: center;
 color:var(--mainEmailColor);
 }
+
 
 /*Portfolio*/
 .buttons{
@@ -130,7 +271,8 @@ color:var(--mainEmailColor);
 }
 
 .footer {
-  background-color:#2F303A
+  background-color:var(--mainBackgroundColor);
+  height: 252px;
 }
 .logo-footer{
     color: var(--mainBackgroundFooter);
@@ -151,5 +293,20 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color:var(--mainEmailColor);
+}
+.address{
+    font-style: normal;
+}
+.foot-logo{
+    padding-top: 60px;
+}
+.lifoot2{
+    margin-top: 20px;
+}
+.lifoot3{
+    margin-top: 9px;
+}
+.lifoot4{
+    margin-top: 11px;
 }
 
