@@ -80,12 +80,6 @@ color:var(--mainEmailColor);
 .title{
     color:var(--mainBackgroundFooter);
     font-family: var(--font-family);
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-text-align: center;
    font-weight: 900;
    font-size: 44px;
    line-height: 1.36;
@@ -99,22 +93,17 @@ text-align: center;
 }
 .hero-section{
     background-color: var(--mainBackgroundColor);
-    height: 600px;
-    flex-shrink: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.section{
+    padding-top:94px;
+    padding-bottom: 94px;
 }
 .button{
     color: var(--mainBackgroundFooter);
     background-color: var(--mainLinkColor);
     font-family: var(--font-family);
-font-weight: 700;
-font-size: 16px;
-line-height: 1.87;
-letter-spacing: 0.06em;
-text-align: center;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -131,11 +120,6 @@ text-align: center;
 .features-title{
     color:var(--mainTextColor);
     font-family: var(--font-family);
-font-weight: 700;
-font-size: 14px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color:var(--mainTextColor);
     font-weight: 700;
     font-size: 14px;
     letter-spacing: 0.03em;
@@ -144,15 +128,10 @@ color:var(--mainTextColor);
 }
 .features-list{
     display: flex;
-  padding-top: 94px;
+
 }
 .features-text{
     font-family: var(--font-family);
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color:var(--mainEmailColor);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -189,35 +168,32 @@ color:var(--mainEmailColor);
 }
 .heading{
     font-family: var(--font-family);
-font-weight: 700;
-font-size: 36px;
-letter-spacing: 0.03em;
-text-align: center;
-color:var(--mainTextColor)
     font-weight: 700;
     font-size: 36px;
     letter-spacing: 0.03em;
     text-align: center;
-    color:var(--mainTextColor)
+    color:var(--mainTextColor);
+    margin-bottom: 50px;
 }
 .services{
     display: flex;
-    margin-top: 92px;
-    padding-bottom: 94px;
+    /* margin-top: 92px; */
+    column-gap: 30px;
+    
 }
 .services-img{
-     margin-right: 30px;
+    
 }
 .section5{
     background-color:var(--inBackgroundColor2--);
     /*height: 648px;*/
 }
-.team:not(:last-child){
-    margin-bottom: 30px;
+.team{
+    display: flex;
+    column-gap: 30px;
 }
-.team-item:not(:last-child){
-    margin-right: 30px;
-    display: inline-block;
+.team-item{
+    /* margin-right: 30px; */
     width: 270px; /* Ширина карточки */
     text-align: center;
     border-radius: 0px 0px 4px 4px;
