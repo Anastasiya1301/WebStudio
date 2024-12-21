@@ -249,6 +249,8 @@ color:var(--mainEmailColor);
 .footer {
   background-color:var(--mainBackgroundColor);
   height: 252px;
+  padding-top:60px;
+  padding-bottom: 60px;
 }
 .logo-footer{
     color: var(--mainBackgroundFooter);
