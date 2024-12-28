@@ -217,8 +217,10 @@ letter-spacing: 0.03em;
 text-align: center;
 color:var(--mainEmailColor);
 }
-
-
+.text-heading{
+    text-align: center;
+    
+}
 /*Portfolio*/
 .buttons{
     font-family: var(--font-family);
