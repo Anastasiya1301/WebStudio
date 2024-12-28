@@ -221,6 +221,10 @@ color:var(--mainEmailColor);
     text-align: center;
     
 }
+.svg{
+    fill: black;
+    padding-top: -12px;
+}
 /*Portfolio*/
 .buttons{
     font-family: var(--font-family);
@@ -251,7 +255,6 @@ color:var(--mainEmailColor);
 
 .footer {
   background-color:var(--mainBackgroundColor);
-  height: 252px;
   padding-top:60px;
   padding-bottom: 60px;
 }
@@ -277,9 +280,6 @@ color:var(--mainEmailColor);
 }
 .address{
     font-style: normal;
-}
-.foot-logo{
-    padding-top: 60px;
 }
 .lifoot2{
     margin-top: 20px;
