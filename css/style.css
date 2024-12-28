@@ -18,8 +18,13 @@
     margin: 0 auto;
     padding: 0 15px;
 }
+.header-position{
+    display: flex;
+    align-items: center;
+}
 .nav{
     display: flex;
+    margin-left: 93px;
 }
 .nav-logotype{
     width: 145px;
@@ -34,7 +39,6 @@
   line-height: 31px;
   letter-spacing: 3%;
   text-align: left;
-  margin-right: 32px;
 }
 .menu-contacts{
     display: flex;
@@ -59,9 +63,20 @@ color:var(--mainTextColor);
 .menu-link:focus{
     color: var(--mainLinkColor);
 }
+.contacts-list{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    column-gap: 50px;
+}
 .contacts-link:hover,
 .contacts-link:focus{
     color: var(--mainEmailColor);
+}
+.contacts-link{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
 }
 .logo-text{
     font-family: var(--second-family);

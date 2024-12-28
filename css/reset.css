@@ -15,7 +15,7 @@ a{
 img{
     max-width: 100%;
     display: block;
-    height: 100%;
+    height: auto;
 }
 body{
     scroll-behavior: smooth;

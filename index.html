@@ -1,223 +1,319 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>WebStudio</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
     <header class="header">
-        <div class="container">
+      <div class="container header-position">
+        <a href="" class="nav-logotype">
+                <span class="logo-text">Web</span
+                ><span class="logo-text logo-header">Studio</span>
+              </a>
         <nav class="nav">
-            <ul class="menu-contacts">
-            <li class="menu-item0">
-            <a href="" class="nav-logotype">
-            <span class="logo-text">Web</span><span class="logo-text logo-header">Studio</span>
-            </a>
+          <ul class="menu-contacts">
+            <li class="menu-item">
+              <a href="./index.html" class="menu-link link1">Студія</a>
             </li>
             <li class="menu-item">
-                <a href="./index.html" class="menu-link link1">Студія</a>
+              <a href="./portfolio.html" class="menu-link link1">Портфоліо</a>
             </li>
             <li class="menu-item">
-                <a href="./portfolio.html" class="menu-link link1">Портфоліо</a>
+              <a href="" class="menu-link link1">Контакти</a>
             </li>
-            <li class="menu-item">
-                <a href="" class="menu-link link1">Контакти</a>
-            </li>
-        <li class="contacts-item">
-            <a href="mailto:info@devstudio.com" class="contacts-link"><svg width="20px"; height="20px";>
-                        <use xlink:href="./icons/symbol-defs.svg#icon-emaillogo"></use>
-                    </svg>info@devstudio.com</a>
-        </li>
-        <li class="contacts-item">
-            <a href="tel:+380961111111" class="contacts-link"><svg width="20px"; height="20px";>
-                        <use xlink:href="./icons/symbol-defs.svg#icon-phonelogo"></use>
-                    </svg>+38 096 111 11 11</a>
-        </li>
-        </ul>
+          </ul>
         </nav>
-        </div>
+        <ul class="contacts-list">
+          <li class="contacts-item">
+            <a href="mailto:info@devstudio.com" class="contacts-link">
+              <svg width="20" height="20">
+                <use
+                  xlink:href="./icons/symbol-defs.svg#icon-emaillogo"
+                ></use></svg
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="contacts-item">
+            <a href="tel:+380961111111" class="contacts-link">
+              <svg width="20" height="20">
+                <use
+                  xlink:href="./icons/symbol-defs.svg#icon-phonelogo"
+                ></use></svg
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
     </header>
     <main>
-        <section class="hero-section">
-            <div class="container">
-            <h1 class="title">Ефективні рішення для вашого бізнесу</h1>
-            <button class="button">Замовити послугу</button>
-             </div>
-        </section>
-        <section class="section">
-            <div  class="container">
-            <h2 class="features">Наші особливості</h2>
-            <ul class="features-list">
-                <li class="features-item">
-                    <h3 class="features-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-                    <p class="features-text texttitle1">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
-                </li>
-                <li class="features-item">
-                    <h3 class="features-title">ПУНКТУАЛЬНІСТЬ</h3>
-                    <p class="features-text texttitle2">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
-                </li>
-                <li class="features-item">
-                    <h3 class="features-title">ПЛАНУВАННЯ</h3>
-                    <p class="features-text texttitle3">Так само консультація з широким активом значною мірою зумовлює.</p>
-                </li>
-                <li class="features-item">
-                    <h3 class="features-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                    <p class="features-text texttitle4">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
-                </li>
-            </ul>
-            </div>
-             </section>
-             <section class="section section4">
-                <div class="container">
-            <h2 class="heading">Чим ми займаємося</h2>
-            <ul class="services">
-                <li class="services-item">
-                    <img src="./image/servicescomputer.jpg" alt="keyboard" class="services-img">
-                </li>
-                <li class="services-item">
-                    <img src="./image/servicesphone.jpg" alt="phone" class="services-img">
-                </li>
-                <li class="services-item">
-                    <img src="./image/servicestablet.jpg" alt="tablet" class="services-img">
-                </li>
-            </ul>
-            </div>
-            </section>
-            <section class="section section5">
-                <div class="container">
-            <h2 class="heading">Наша команда</h2>
-            <ul class="team">
-                <li class="team-item">
-                    <img src="./image/igordem.jpg" alt="a man in a burgundy shirt" class="team-img">
-                    <h3 class="team-title">Ігор Дем'яненко</h3>
-                    <p class="team-text">Product Designer</p>
-                    <svg width="20px"; height="20px";>
-                        <use xlink:href="./icons/symbol-defs.svg#icon-instagramlogo"></use>
-                    </svg>
-                    <svg width="20px"; height="20px";>
-                        <use xlink:href="./icons/symbol-defs.svg#icon-twitterlogo"></use>
-                    </svg>
-                    <svg width="20px"; height="20px";>
-                        <use xlink:href="./icons/symbol-defs.svg#icon-logof"></use>
-                    </svg>
-                    <svg width="20px"; height="20px";>
-                        <use xlink:href="./icons/symbol-defs.svg#icon-linkedinlogo"></use>
-                    </svg>
-                </li>
-                <li class="team-item">
-                    <img src="./image/olga.jpg" alt="a woman in a jacket" class="team-img">
-                    <h3 class="team-title">Ольга Рєпіна</h3>
-                    <p class="team-text">Frontend Developer</p>
-                    <svg width="20px"; height="20px";>
-                        <use xlink:href="./icons/symbol-defs.svg#icon-instagramlogo"></use>
-                    </svg>
-                    <svg width="20px"; height="20px";>
-                        <use xlink:href="./icons/symbol-defs.svg#icon-twitterlogo"></use>
-                    </svg>
-                    <svg width="20px"; height="20px";>
-                        <use xlink:href="./icons/symbol-defs.svg#icon-logof"></use>
-                    </svg>
-                    <svg width="20px"; height="20px";>
-                        <use xlink:href="./icons/symbol-defs.svg#icon-linkedinlogo"></use>
-                    </svg>
-                </li>
-                <li class="team-item">
-                    <img src="./image/mukola.jpg" alt="a man in a blue shirt" class="team-img">
-                    <h3 class="team-title">Микола Тарасов</h3>
-                    <p class="team-text">Marketing</p>
-                    <svg width="20px"; height="20px";>
-                        <use xlink:href="./icons/symbol-defs.svg#icon-instagramlogo"></use>
-                    </svg>
-                    <svg width="20px"; height="20px";>
-                        <use xlink:href="./icons/symbol-defs.svg#icon-twitterlogo"></use>
-                    </svg>
-                    <svg width="20px"; height="20px";>
-                        <use xlink:href="./icons/symbol-defs.svg#icon-logof"></use>
-                    </svg>
-                    <svg width="20px"; height="20px";>
-                        <use xlink:href="./icons/symbol-defs.svg#icon-linkedinlogo"></use>
-                    </svg>
-                </li>
-                <li class="team-item">
-                    <img src="./image/mikhail.jpg" alt="a man in a black T-shirt" class="team-img">
-                    <h3 class="team-title">Михайло Єрмаков</h3>
-                    <p class="team-text">UI Designer</p>
-                    <svg width="20px"; height="20px";>
-                        <use xlink:href="./icons/symbol-defs.svg#icon-instagramlogo"></use>
-                    </svg>
-                    <svg width="20px"; height="20px";>
-                        <use xlink:href="./icons/symbol-defs.svg#icon-twitterlogo"></use>
-                    </svg>
-                    <svg width="20px"; height="20px";>
-                        <use xlink:href="./icons/symbol-defs.svg#icon-logof"></use>
-                    </svg>
-                    <svg width="20px"; height="20px";>
-                        <use xlink:href="./icons/symbol-defs.svg#icon-linkedinlogo"></use>
-                    </svg>
-                </li>
-            </ul>
-            </div>
-        </section>
-          <section class="section">
-            <div class="container">
-                <h2 class="heading">Постійні клієнти</h2>
-                <p class="text-heading"> <svg width="20px"; height="20px";>
-                    <use xlink:href="./icons/symbol-defs.svg#icon-logoyaco"></use>
-                    </svg></p>
-                    <p class="text-heading">
-                    <svg width="20px"; height="20px";>
-                    <use xlink:href="./icons/symbol-defs.svg#icon-logocompanylist"></use>
-                    </svg>
-                    </p>
-                    <p class="text-heading">
-                    <svg width="20px"; height="20px";>
-                    <use xlink:href="./icons/symbol-defs.svg#icon-logocirclecompany"></use>
-                    </svg>
-                    </p>
-                    <p class="text-heading">
-                    <svg width="20px"; height="20px";>
-                    <use xlink:href="./icons/symbol-defs.svg#icon-logofosterpeters"></use>
-                    </svg>
-                    </p>
-                    <p class="text-heading">
-                    <svg width="20px"; height="20px";>
-                    <use xlink:href="./icons/symbol-defs.svg#icon-logobrand"></use>
-                    </svg>
-                    </p>
-                    <p class="text-heading">?
-                        <svg width="20px"; height="20px"; class="svg">
-                    <use xlink:href="./icons/symbol-defs.svg#icon-companytagline"></use>
-                    </svg>
-                    </p>
-            </div>
-        </section> 
+      <section class="hero-section">
+        <div class="container">
+          <h1 class="title">Ефективні рішення для вашого бізнесу</h1>
+          <button class="button">Замовити послугу</button>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <h2 class="features">Наші особливості</h2>
+          <ul class="features-list">
+            <li class="features-item">
+              <h3 class="features-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="features-text texttitle1">
+                Ідейні міркування, і навіть початок повсякденної роботи з
+                формування позиції.
+              </p>
+            </li>
+            <li class="features-item">
+              <h3 class="features-title">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="features-text texttitle2">
+                Завдання організації, особливо рамки і місце навчання кадрів
+                тягне у себе.
+              </p>
+            </li>
+            <li class="features-item">
+              <h3 class="features-title">ПЛАНУВАННЯ</h3>
+              <p class="features-text texttitle3">
+                Так само консультація з широким активом значною мірою зумовлює.
+              </p>
+            </li>
+            <li class="features-item">
+              <h3 class="features-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="features-text texttitle4">
+                Значимість цих проблем настільки очевидна, що реалізація
+                планових завдань.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section section4">
+        <div class="container">
+          <h2 class="heading">Чим ми займаємося</h2>
+          <ul class="services">
+            <li class="services-item">
+              <img
+                src="./image/servicescomputer.jpg"
+                alt="keyboard"
+                class="services-img"
+              />
+            </li>
+            <li class="services-item">
+              <img
+                src="./image/servicesphone.jpg"
+                alt="phone"
+                class="services-img"
+              />
+            </li>
+            <li class="services-item">
+              <img
+                src="./image/servicestablet.jpg"
+                alt="tablet"
+                class="services-img"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section section5">
+        <div class="container">
+          <h2 class="heading">Наша команда</h2>
+          <ul class="team">
+            <li class="team-item">
+              <img
+                src="./image/igordem.jpg"
+                alt="a man in a burgundy shirt"
+                class="team-img"
+                />
+              <h3 class="team-title">Ігор Дем'яненко</h3>
+              <p class="team-text">Product Designer</p>
+              <svg width="20" height="20">
+                <use
+                  xlink:href="./icons/symbol-defs.svg#icon-instagramlogo"
+                ></use>
+              </svg>
+              <svg width="20" height="20">
+                <use
+                  xlink:href="./icons/symbol-defs.svg#icon-twitterlogo"
+                ></use>
+              </svg>
+              <svg width="20" height="20">
+                <use xlink:href="./icons/symbol-defs.svg#icon-logof"></use>
+              </svg>
+              <svg width="20" height="20">
+                <use
+                  xlink:href="./icons/symbol-defs.svg#icon-linkedinlogo"
+                ></use>
+              </svg>
+            </li>
+            <li class="team-item">
+              <img
+                src="./image/olga.jpg"
+                alt="a woman in a jacket"
+                class="team-img"
+              />
+              <h3 class="team-title">Ольга Рєпіна</h3>
+              <p class="team-text">Frontend Developer</p>
+              <svg width="20" height="20">
+                <use
+                  xlink:href="./icons/symbol-defs.svg#icon-instagramlogo"
+                ></use>
+              </svg>
+              <svg width="20" ; height="20">
+                <use
+                  xlink:href="./icons/symbol-defs.svg#icon-twitterlogo"
+                ></use>
+              </svg>
+              <svg width="20" height="20">
+                <use xlink:href="./icons/symbol-defs.svg#icon-logof"></use>
+              </svg>
+              <svg width="20" height="20">
+                <use
+                  xlink:href="./icons/symbol-defs.svg#icon-linkedinlogo"
+                ></use>
+              </svg>
+            </li>
+            <li class="team-item">
+              <img
+                src="./image/mukola.jpg"
+                alt="a man in a blue shirt"
+                class="team-img"
+              />
+              <h3 class="team-title">Микола Тарасов</h3>
+              <p class="team-text">Marketing</p>
+              <svg width="20px" ; height="20px" ;>
+                <use
+                  xlink:href="./icons/symbol-defs.svg#icon-instagramlogo"
+                ></use>
+              </svg>
+              <svg width="20" height="20">
+                <use
+                  xlink:href="./icons/symbol-defs.svg#icon-twitterlogo"
+                ></use>
+              </svg>
+              <svg width="20" height="20">
+                <use xlink:href="./icons/symbol-defs.svg#icon-logof"></use>
+              </svg>
+              <svg width="20" height="20px">
+                <use
+                  xlink:href="./icons/symbol-defs.svg#icon-linkedinlogo"
+                ></use>
+              </svg>
+            </li>
+            <li class="team-item">
+              <img
+                src="./image/mikhail.jpg"
+                alt="a man in a black T-shirt"
+                class="team-img"
+              />
+              <h3 class="team-title">Михайло Єрмаков</h3>
+              <p class="team-text">UI Designer</p>
+              <svg width="20px" ; height="20px" ;>
+                <use
+                  xlink:href="./icons/symbol-defs.svg#icon-instagramlogo"
+                ></use>
+              </svg>
+              <svg width="20" height="20">
+                <use
+                  xlink:href="./icons/symbol-defs.svg#icon-twitterlogo"
+                ></use>
+              </svg>
+              <svg width="20" height="20">
+                <use xlink:href="./icons/symbol-defs.svg#icon-logof"></use>
+              </svg>
+              <svg width="20" height="20">
+                <use
+                  xlink:href="./icons/symbol-defs.svg#icon-linkedinlogo"
+                ></use>
+              </svg>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <h2 class="heading">Постійні клієнти</h2>
+          <p class="text-heading">
+            <svg width="20" height="20">
+              <use xlink:href="./icons/symbol-defs.svg#icon-logoyaco"></use>
+            </svg>
+          </p>
+          <p class="text-heading">
+            <svg width="20" height="20">
+              <use
+                xlink:href="./icons/symbol-defs.svg#icon-logocompanylist"
+              ></use>
+            </svg>
+          </p>
+          <p class="text-heading">
+            <svg width="20" height="20">
+              <use
+                xlink:href="./icons/symbol-defs.svg#icon-logocirclecompany"
+              ></use>
+            </svg>
+          </p>
+          <p class="text-heading">
+            <svg width="20" height="20px">
+              <use
+                xlink:href="./icons/symbol-defs.svg#icon-logofosterpeters"
+              ></use>
+            </svg>
+          </p>
+          <p class="text-heading">
+            <svg width="20" height="20">
+              <use xlink:href="./icons/symbol-defs.svg#icon-logobrand"></use>
+            </svg>
+          </p>
+          <p class="text-heading">
+            <svg width="20" height="20" class="svg">
+              <use
+                xlink:href="./icons/symbol-defs.svg#icon-companytagline"
+              ></use>
+            </svg>
+          </p>
+        </div>
+      </section>
     </main>
     <footer class="footer">
-        <div class="container">
+      <div class="container">
         <a href="/" class="footer-link foot-logo">
-            <span class="logo-text">Web</span><span class="logo-text logo-footer">Studio</span>
+          <span class="logo-text">Web</span
+          ><span class="logo-text logo-footer">Studio</span>
         </a>
         <address class="address">
-        <ul class="address-list">
+          <ul class="address-list">
             <li class="address-item lifoot2">
-                <span class="address-post">м. Київ, пр-т Лесі Українки, 26</span>
+              <span class="address-post">м. Київ, пр-т Лесі Українки, 26</span>
             </li>
             <li class="address-item lifoot3">
-                <a href="mailto:info@devstudio.com" class="address-email">info@devstudio.com</a>
+              <a href="mailto:info@devstudio.com" class="address-email"
+                >info@devstudio.com</a
+              >
             </li>
             <li class="address-item lifoot4">
-                <a href="tel:+380961111111" class="address-phone">+38 096 111 11 11</a>
+              <a href="tel:+380961111111" class="address-phone"
+                >+38 096 111 11 11</a
+              >
             </li>
-        </ul>
+          </ul>
         </address>
-        </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
