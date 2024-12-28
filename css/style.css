@@ -36,6 +36,10 @@
   text-align: left;
   margin-right: 32px;
 }
+.menu-contacts{
+    display: flex;
+    column-gap: 50px;
+}
 .menu-item0{
     margin-right: 32px;
 }
@@ -140,13 +144,11 @@ color:var(--mainEmailColor);
     padding:10px;
 }
 .texttitle1 {
-  /* Ідейні міркування, і навіть початок повсякденної роботи з формування позиції. */
   text-align: left;
   width: 270px;
   height: 72px;
 }
 .texttitle2 {
-  /* Завдання організації, особливо рамки і місце навчання кадрів тягне у себе. */
   width: 270px;
   height: 48px;
   text-align: left;
@@ -154,14 +156,12 @@ color:var(--mainEmailColor);
   flex-wrap: wrap;
 }
 .texttitle3 {
-  /* Так само консультація з широким активом значною мірою зумовлює. */
   width: 270px;
   height: 48px;
   left: 815px;
   text-align: left;
 }
 .texttitle4 {
-  /* Значимість цих проблем настільки очевидна, що реалізація планових завдань. */
   width: 270px;
   height: 72px;
   text-align: left;
@@ -227,7 +227,8 @@ font-size: 16px;
 line-height: 162%;
 letter-spacing: 0.03em;
 text-align: center;
-color:var(--mainBackgroundFooter);
+background-color:var(--mainBackgroundFooter);
+color:var(--mainTextColor);
 }
 .offers-title{
     font-family: var(--font-family);
