@@ -232,9 +232,9 @@ letter-spacing: 0.03em;
 text-align: center;
 color:var(--mainEmailColor);
 }
-.text-heading{
+.regular-customers-item{
     text-align: center;
-    
+    display: flex;
 }
 .svg{
     fill: black;
