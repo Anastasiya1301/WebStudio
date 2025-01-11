@@ -6,6 +6,7 @@
       --mainBackgroundColor:#2F303A;
       --mainBackgroundColor2:#F5F4FA;
       --mainBackgroundFooter:#FFFFFF;
+      --svgcolorsicons:#AFB1B8;
   --font-family: "Roboto", sans-serif;
   --second-family: "Raleway", sans-serif;
 }
@@ -239,6 +240,38 @@ color:var(--mainEmailColor);
 .svg{
     fill: black;
     padding-top: -12px;
+}
+.team-svg-list{
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+    margin-top: 16px;
+}
+.team-svg-link{
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.team-svg-link:hover{
+    background-color: var(--mainLinkColor);
+}
+.team-svg-link:hover{
+    fill: var(--mainBackgroundFooter);
+}
+.team-svg{
+    fill: var(--svgcolorsicons);
+   
+}
+.regular-customers-list{
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+}
+.regular-customers-svg{
+    fill: var(--svgcolorsicons);
 }
 /*Portfolio*/
 .buttons{
