@@ -9,33 +9,47 @@
     <title>WebStudio2</title>
 </head>
 <body>
-    <header class="header">
-            <nav class="nav">
-                <a href="/" class="nav-logotype">
-                    <span class="logo-text">Web</span>
-                    <span class="logo-text logo-header">Studio</span>
-                </a>
-                <ul class="menu">
-                    <li class="menu-item">
-                        <a href="./index.html" class="menu-link">Студія</a>
-                    </li>
-                    <li class="menu-item">
-                        <a href="./portfolio.html" class="menu-link">Портфоліо</a>
-                    </li>
-                    <li class="menu-item">
-                        <a href="#" class="menu-link">Контакти</a>
-                    </li>
-                </ul>
-            </nav>
-            <ul class="header-contacts">
-               <li class="contacts-item">
-                <a href="mailto:info@devstudio.com" class="contacts-link">info@devstudio.com</a>
-               </li>
-               <li class="contacts-item">
-                <a href="tel:+380961111111" class="contacts-link">+38 096 111 11 11</a>
-               </li>
-            </ul>
-        </header>
+    <header class="header header-portfolio">
+      <div class="container header-position">
+        <a href="" class="nav-logotype">
+          <span class="logo-text">Web</span
+          ><span class="logo-text logo-header">Studio</span>
+        </a>
+        <nav class="nav">
+          <ul class="menu-contacts">
+            <li class="menu-item">
+              <a href="./index.html" class="menu-link link1">Студія</a>
+            </li>
+            <li class="menu-item">
+              <a href="./portfolio.html" class="menu-link link1">Портфоліо</a>
+            </li>
+            <li class="menu-item">
+              <a href="" class="menu-link link1">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="contacts-list">
+          <li class="contacts-item">
+            <a href="mailto:info@devstudio.com" class="contacts-link">
+              <svg width="16" height="12">
+                <use
+                  xlink:href="./icons/symbol-defs.svg#icon-emaillogo"
+                ></use></svg
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="contacts-item">
+            <a href="tel:+380961111111" class="contacts-link">
+              <svg width="10" height="16">
+                <use
+                  xlink:href="./icons/symbol-defs.svg#icon-phonelogo"
+                ></use></svg
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
     <main class="main">
         <section class="section">
                 <ul class="button-list">
@@ -106,22 +120,29 @@
              </section>
     </main>
     <footer class="footer">
-        <a href="/" class="footer-link">
-            <span class="logo-text">Web</span><span class="logo-text logo-footer">Studio</span>
+      <div class="container">
+        <a href="/" class="footer-link foot-logo">
+          <span class="logo-text">Web</span
+          ><span class="logo-text logo-footer">Studio</span>
         </a>
         <address class="address">
-            <ul class="address-list">
-                <li class="address-item">
-                    <span class="address-post">м. Київ, пр-т Лесі Українки, 26</span>
-                </li>
-                <li class="address-item">
-                    <a href="mailto:info@example.com" class="address-email">info@example.com</a>
-                </li>
-                <li class="address-item">
-                    <a href="tel:+380961111111" class="address-phone">+38 096 111 11 11</a>
-                </li>
-            </ul>
+          <ul class="address-list">
+            <li class="address-item lifoot2">
+              <span class="address-post">м. Київ, пр-т Лесі Українки, 26</span>
+            </li>
+            <li class="address-item lifoot3">
+              <a href="mailto:info@devstudio.com" class="address-email"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="address-item lifoot4">
+              <a href="tel:+380961111111" class="address-phone"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
         </address>
+      </div>
     </footer>
 </body>
 </html>

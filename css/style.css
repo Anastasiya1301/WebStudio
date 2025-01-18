@@ -292,16 +292,34 @@ margin-top: 10px;
     fill: var(--svgcolorsicons);
 }
 /*Portfolio*/
+.header-portfolio{
+    border-bottom: 1px solid #ececec;
+}
+.button-list{
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
+    margin-bottom: 50px;
+}
+/* .buttons-item:hover{
+    background-color: var(--mainLinkColor);
+    color: var(--mainBackgroundFooter);
+} */
 .buttons{
     font-family: var(--font-family);
-font-weight: 500;
-font-size: 16px;
-line-height: 162%;
-letter-spacing: 0.03em;
-text-align: center;
-background-color:var(--mainBackgroundFooter);
-color:var(--mainTextColor);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 162%;
+    letter-spacing: 0.03em;
+    text-align: center;
+    background-color:var(--mainBackgroundColor2);
+    color:var(--mainTextColor);
+    border: none;
+    width: 112px; ;
+    height: 38px;
+    border-radius: 4px;
 }
+
 .offers-title{
     font-family: var(--font-family);
 font-weight: 700;
