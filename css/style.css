@@ -201,7 +201,7 @@ color:var(--mainEmailColor);
     
 }
 .section5{
-    background-color:var(--inBackgroundColor2--);
+    background-color:var(--mainBackgroundColor2);
     /*height: 648px;*/
 }
 .team{
@@ -214,6 +214,8 @@ color:var(--mainEmailColor);
     text-align: center;
     border-radius: 0px 0px 4px 4px;
     background: var(--mainBackgroundFooter);
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
 }
 .team-title{
     font-family: var(--font-family);
@@ -224,6 +226,7 @@ text-align: center;
 color:var(--mainTextColor);
 margin-top: 30px;
 font-weight: 500;
+
 }
 .team-text{
     font-family: var(--font-family);
@@ -232,10 +235,24 @@ font-size: 16px;
 letter-spacing: 0.03em;
 text-align: center;
 color:var(--mainEmailColor);
+margin-top: 10px;
 }
 .regular-customers-item{
     text-align: center;
     display: flex;
+    border: 1px solid var(--svgcolorsicons);
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+    align-items: center;
+    justify-content: center;
+
+}
+.regular-customers-item:hover{
+     border: 1px solid var(--mainLinkColor);
+}
+.regular-customers-item:hover .regular-customers-svg{
+    fill: var(--mainLinkColor);
 }
 .svg{
     fill: black;
@@ -246,6 +263,7 @@ color:var(--mainEmailColor);
     column-gap: 10px;
     justify-content: center;
     margin-top: 16px;
+    margin-bottom: 30px;
 }
 .team-svg-link{
     width: 44px;
@@ -258,8 +276,8 @@ color:var(--mainEmailColor);
 .team-svg-link:hover{
     background-color: var(--mainLinkColor);
 }
-.team-svg-link:hover{
-    fill: var(--mainBackgroundFooter);
+.team-svg-link:hover .team-svg{
+     fill: var(--mainBackgroundFooter);
 }
 .team-svg{
     fill: var(--svgcolorsicons);
