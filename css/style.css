@@ -7,6 +7,7 @@
       --mainBackgroundColor2:#F5F4FA;
       --mainBackgroundFooter:#FFFFFF;
       --svgcolorsicons:#AFB1B8;
+      --Backgroundcolorportfolio:#EEEEEE;
   --font-family: "Roboto", sans-serif;
   --second-family: "Raleway", sans-serif;
 }
@@ -197,9 +198,6 @@ color:var(--mainEmailColor);
     column-gap: 30px;
     
 }
-.services-img{
-    
-}
 .section5{
     background-color:var(--mainBackgroundColor2);
     /*height: 648px;*/
@@ -295,16 +293,18 @@ margin-top: 10px;
 .header-portfolio{
     border-bottom: 1px solid #ececec;
 }
+.svg-portfolio{
+    fill: var(--mainEmailColor);
+}
 .button-list{
     display: flex;
     justify-content: center;
     column-gap: 8px;
     margin-bottom: 50px;
 }
-/* .buttons-item:hover{
-    background-color: var(--mainLinkColor);
-    color: var(--mainBackgroundFooter);
-} */
+.buttons-item:{
+    
+} 
 .buttons{
     font-family: var(--font-family);
     font-weight: 500;
@@ -319,7 +319,22 @@ margin-top: 10px;
     height: 38px;
     border-radius: 4px;
 }
-
+.buttons:hover,
+.buttons:focus{
+    background-color: var(--mainLinkColor);
+    color: var(--mainBackgroundFooter);
+}
+.offers{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.offers-item{
+    outline: 1px solid #eee;
+    flex-basis: calc((100% - 60px) / 3);
+    box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+background: #fff;
+}
 .offers-title{
     font-family: var(--font-family);
 font-weight: 700;
@@ -327,6 +342,8 @@ font-size: 18px;
 line-height: 200%;
 letter-spacing: 0.06em;
 color:var(--mainTextColor);
+margin-top: 20px;
+margin-left: 24px;
 }
 .offers-text{
 font-family: var(--font-family);
@@ -335,6 +352,8 @@ font-size: 16px;
 line-height: 187%;
 letter-spacing: 0.03em;
 color:var(--mainEmailColor);
+margin-bottom: 20px;
+margin-left: 24px;
 }
 
 .footer {
