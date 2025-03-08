@@ -73,12 +73,15 @@ color:var(--mainTextColor);
 }
 .contacts-link:hover,
 .contacts-link:focus{
-    color: var(--mainEmailColor);
+    color: var(--mainLinkColor);
 }
 .contacts-link{
     display: flex;
     align-items: center;
     column-gap: 10px;
+}
+.contacts-svg:hover{
+    fill: var(--mainLinkColor);
 }
 .logo-text{
     font-family: var(--second-family);
@@ -113,9 +116,10 @@ color:var(--mainEmailColor);
    margin: 0 auto;
 }
 .hero-section{
-    background-color: var(--mainBackgroundColor);
+    background-image: url(../image/img-overlay-min.png), url(../image/bg-header-min.png);
     padding-top: 200px;
     padding-bottom: 200px;
+    background-repeat: no-repeat;
 }
 .section{
     padding-top:94px;
@@ -213,7 +217,11 @@ color:var(--mainEmailColor);
     border-radius: 0px 0px 4px 4px;
     background: var(--mainBackgroundFooter);
     border-radius: 0 0 4px 4px;
-    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+   
+}
+.team-item:hover,
+.team-item:focus{
+     box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
 }
 .team-title{
     font-family: var(--font-family);
@@ -329,8 +337,12 @@ margin-top: 10px;
 .offers-item{
     outline: 1px solid #eee;
     flex-basis: calc((100% - 60px) / 3);
-    box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    
 background: #fff;
+}
+.offers-item:hover,
+.offers-item:focus{
+    box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 }
 .offers-title{
     font-family: var(--font-family);
